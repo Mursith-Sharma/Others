@@ -1,0 +1,5 @@
+1.  install Git
+2.  go to your cmd & type ( connect pannuvathatku )-> git 
+  ->  git config --global user.name "Mursith-Sharma"
+  ->  git config --global user.email "mmursith12345@gmail.com"
+3.go to your vs code terminal PS C:\wamp64\github_folder> git clone 
