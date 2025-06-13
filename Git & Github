@@ -2,4 +2,5 @@
 2.  go to your cmd & type ( connect pannuvathatku )-> git 
   ->  git config --global user.name "Mursith-Sharma"
   ->  git config --global user.email "mmursith12345@gmail.com"
-3.go to your vs code terminal PS C:\wamp64\github_folder> git clone 
+3. create any folder in your pc & go to terminal enter folder path and connect github file link like keele iruppathu pola
+3.go to your vs code terminal PS C:\wamp64\github_folder> git clone https://github.com/Mursith-Sharma/Others/blob/main/Git%20%26%20Github
