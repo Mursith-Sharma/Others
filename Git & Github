@@ -41,6 +41,14 @@
 33. folder name il space illavittal -> cd '.\New_folder' ivvaru kodukka mudium. but space irunthal ivvaru kodukka vendum cd ".\New folder"
 34. bridge create panna -> git init 
 35. antha folder il pala filse irunthal athai oreneraththil add panna dot ida vendum -> PS C:\New folder> git add .
+36. next ->> git commit -m " create test1.txt and test2.txt"
+37. now git push aagathu bcz github in old version il git branch name master entru irukkum athanal error varum. let's try this commend -> (PS C:\New folder> git push origin main) & ( PS C:\New folder> git branch )
+38. so change branch name ->> git branch -M main
+39. now branch connected. now github ilullla repositery connect panna vendum
+40. so next ->>  git remote add origin https://github.com/Mursith-Sharma/Projects.git
+41. origin il error vanthal try this -> git remote remove origin
+42. finally -> git push -u origin main
+43. after refresh your github . athil desktop ilulla 2 files um irukkum
 ############################################################ how this work ###########################################################################
 
 [Working Directory] → `git add` → [Staging Area] → `git commit` → [Local Repository] → `git push` → [GitHub]
@@ -156,8 +164,16 @@ PS C:\wamp64\github_folder\assignments> git pull
 PS C:\New folder> git init
 34)))
 PS C:\New folder> git add .
-
-
+37)))
+PS C:\New folder> git commit -m " create test1.txt and test2.txt"
+38)))
+PS C:\New folder> git branch -M main
+40)))
+PS C:\New folder> git remote add origin https://github.com/Mursith-Sharma/Projects.git
+41)))
+PS C:\New folder> git remote remove origin
+42)))
+PS C:\New folder> git push -u origin main
 
 ##########################################################################
 
