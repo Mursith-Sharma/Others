@@ -16,6 +16,10 @@
 13. now file aanathu working area ilirunthu staging area ku sentrirukkirathu (git add type pannathan moolamaga)
 14. now [Staging Area] → to → [Local Repository] pooga vendum ( git commit ) seiya vendum
 15. so type ->  git commit -m "create test2.txt file" (( -m enpathu massage athavathu commit msg))
+16. finally push koduththu github il upload pannal. type in cmd -->  git push origin main 
+17. main enpathu ungal github ilulla branch . sgal branch name ethuvo athai kodukka vendum
+18. finally sign in with your browser ena varum athil signin pannavum (1st time only)
+19. ippoluthu projects enum folder inai github il refesh seithal antha text2.txt enum file irukkum
 
 ############################################################ how this work ###########################################################################
 
@@ -98,6 +102,26 @@ Changes to be committed:
         new file:   test2.txt
 15))))
 PS C:\wamp64\github_folder\projects> git commit -m "create test2.txt file"
+16))))
+PS C:\wamp64\github_folder\projects> git push origin main 
 
+##########################################################################
+
+Working Directory
+........|........
+........| git add
+........V........
+Staging Area
+........|........
+........| git commit
+........V........
+Local Repository
+........|........
+........| git push
+........V........
+Remote (GitHub)
+........|........
+........| git pull
+........^........
 
 ####################################################################################################################################
