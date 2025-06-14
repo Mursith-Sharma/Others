@@ -14,8 +14,44 @@
 8. ippoluthu "U" entra sympol "A" entru maaari irukkum
 12. now type -> git status adiththal Changes to be committed: entru varum
 13. now file aanathu working area ilirunthu staging area ku sentrirukkirathu (git add type pannathan moolamaga)
+14. now [Staging Area] → to → [Local Repository] pooga vendum ( git commit ) seiya vendum
+15. so type ->  git commit -m "create test2.txt file" (( -m enpathu massage athavathu commit msg))
 
-###########################################################  in cmd  #########################################################################
+############################################################ how this work ###########################################################################
+
+[Working Directory] → `git add` → [Staging Area] → `git commit` → [Local Repository] → `git push` → [GitHub]
+      ↑                                                                                     ↓
+      `git checkout`                                                                        `git pull`
+
+  +-------------------+       +---------------+       +-------------------+       +--------+
+  |  WORKING DIRECTORY |       |  STAGING AREA  |       | LOCAL REPOSITORY  |       | GITHUB  |
+  |  (Your Files)      |       |  (Index)       |       | (.git folder)     |       | (Cloud) |
+  +-------------------+       +---------------+       +-------------------+       +--------+
+          |                          |                         |                       |
+          | 1. Edit files            |                         |                       |
+          | (untracked/modified)     |                         |                       |
+          |------------------------> |                         |                       |
+          |                          |                         |                       |
+          | 2. `git add`             |                         |                       |
+          | (stage changes)          |                         |                       |
+          |------------------------> |                         |                       |
+          |                          |                         |                       |
+          | 3. `git commit`          |                         |                       |
+          | (save snapshot)          |                         |                       |
+          |---------------------------------------------->     |                       |
+          |                          |                         |                       |
+          | 4. `git push`            |                         |                       |
+          | (send to GitHub)         |                         |                       |
+          |---------------------------------------------------------------------> |
+          |                          |                         |                       |
+          | 5. `git pull`            |                         |                       |
+          | (get updates)            |                         |                       |
+          | <--------------------------------------------------------------------- |
+          |                          |                         |                       |
+  +-------------------+       +---------------+       +-------------------+       +--------+
+
+###########################################################  in cmd live view #########################################################################
+
 4))))
 PS C:\wamp64\github_folder> git clone https://github.com/Mursith-Sharma/Projects.git      
 Cloning into 'Projects'...
@@ -60,7 +96,8 @@ Your branch is up to date with 'origin/main'.
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         new file:   test2.txt
-
+15))))
+PS C:\wamp64\github_folder\projects> git commit -m "create test2.txt file"
 
 
 ####################################################################################################################################
