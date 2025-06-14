@@ -1,3 +1,4 @@
+---------------------------conneect git--------------------------
 1.  install Git
 2.  go to your cmd & type ( connect pannuvathatku )-> git 
   ->  git config --global user.name "Mursith-Sharma"
@@ -7,6 +8,7 @@
 4.go to your vs code terminal PS C:\wamp64\github_folder> git clone https://github.com/Mursith-Sharma/Projects.git            {syntex  ->>  (cd path/to/your/folder)     github il folder il code entru irukkum antha code than upload pannal .gt entru varum}
 5. PS C:\wamp64\github_folder>        <<--  now you irukkum path
 6. ls adiththu athilulla folder kku poga vendum (cd your folder)
+----------------------------make file---------------------------
 7. antha folder il ethavathu new text file create pannungal.  vs code moolamaga or dekstop in moolamaga text file create pannavum.ex:- (test2.txt) but github moolamaga create panna vendaam  
 8. git status ( type in terminal )
 9. git status kodukkavum . after athil Untracked files: entru varum athatkara reason neengal create panniya file github il track panna mudiyavillai. athai kurikka arukil "U" entru sympol irukkum 
@@ -20,7 +22,15 @@
 17. main enpathu ungal github ilulla branch . sgal branch name ethuvo athai kodukka vendum
 18. finally sign in with your browser ena varum athil signin pannavum (1st time only)
 19. ippoluthu projects enum folder inai github il refesh seithal antha text2.txt enum file irukkum
-
+----------------------------delete file-------------------------
+20. now vs code ilulla naam create panniya test2.txt file alinthal github il aliyathu now naam athai alikka vendum
+21. so now we delete test.txt in our coumputer. after naam delete pannathai git kku therivikka vendum . naaam file ontri github il show panna enna seithomo athai meendum seiya vendum
+22. so --> git add test2.txt
+23. git status
+24. type -> git commit -m "test2.txt deleted"
+25. git status
+26. git push
+27.ippoluthu github il refresh seithal antha fileirukkathu
 ############################################################ how this work ###########################################################################
 
 [Working Directory] → `git add` → [Staging Area] → `git commit` → [Local Repository] → `git push` → [GitHub]
@@ -104,6 +114,32 @@ Changes to be committed:
 PS C:\wamp64\github_folder\projects> git commit -m "create test2.txt file"
 16))))
 PS C:\wamp64\github_folder\projects> git push origin main 
+16))))
+PS C:\wamp64\github_folder\projects> git status     (text2.txt file delete pannavudan gitstatus adiththal )
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:                                                       <<-- innum commit aahavillai
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    test2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+21)))
+PS C:\wamp64\github_folder\projects>  git add test2.txt
+PS C:\wamp64\github_folder\projects> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    test2.txt
+22)))
+PS C:\wamp64\github_folder\projects> git commit -m "test2.txt deleted"
+23)))
+PS C:\wamp64\github_folder\projects> git push
+
+
 
 ##########################################################################
 
