@@ -17,7 +17,7 @@
 12. now type -> git status adiththal Changes to be committed: entru varum
 13. now file aanathu working area ilirunthu staging area ku sentrirukkirathu (git add type pannathan moolamaga)
 14. now [Staging Area] → to → [Local Repository] pooga vendum ( git commit ) seiya vendum
-15. so type ->  git commit -m "create test2.txt file" (( -m enpathu massage athavathu commit msg))
+15. so type ->  git commit -m "create test2.txt file" (( -m enpathu massage athavathu commit msg virumpiya msg kodukkalam))
 16. finally push koduththu github il upload pannal. type in cmd -->  git push origin main 
 17. main enpathu ungal github ilulla branch . sgal branch name ethuvo athai kodukka vendum
 18. finally sign in with your browser ena varum athil signin pannavum (1st time only)
@@ -30,7 +30,17 @@
 24. type -> git commit -m "test2.txt deleted"
 25. git status
 26. git push
-27.ippoluthu github il refresh seithal antha fileirukkathu
+27.ippoluthu github il refresh seithal antha fileirukkathu2
+-------------------------github file inai pc il eduththal------------------------
+28. already desktop il create seitha file inai  github il eduththom & delete seithom NOW github il create panniya file inai desktop il edukka pohirom
+29. type -> git pull
+30. ippoluthu neengal create seitha file vs code or pc il vanthirukkum
+------------------ access any folder in github ----------------------------
+31. ippoluthu desktop il somthing veroru folder inai github kku evvaru kondu selvathu
+32. now my location c partition. ithilirunthu ivvaru 2 muaikalil sella mudium -->>    cd ".\New folder"         or       cd "C:\New folder"
+33. folder name il space illavittal -> cd '.\New_folder' ivvaru kodukka mudium. but space irunthal ivvaru kodukka vendum cd ".\New folder"
+34. bridge create panna -> git init 
+35. antha folder il pala filse irunthal athai oreneraththil add panna dot ida vendum -> PS C:\New folder> git add .
 ############################################################ how this work ###########################################################################
 
 [Working Directory] → `git add` → [Staging Area] → `git commit` → [Local Repository] → `git push` → [GitHub]
@@ -125,7 +135,7 @@ Changes not staged for commit:                                                  
         deleted:    test2.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
-21)))
+22)))
 PS C:\wamp64\github_folder\projects>  git add test2.txt
 PS C:\wamp64\github_folder\projects> git status
 On branch main
@@ -134,10 +144,18 @@ Your branch is up to date with 'origin/main'.
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         deleted:    test2.txt
-22)))
+24)))
 PS C:\wamp64\github_folder\projects> git commit -m "test2.txt deleted"
-23)))
+26)))
 PS C:\wamp64\github_folder\projects> git push
+29)))
+PS C:\wamp64\github_folder\assignments> git pull
+32)))
+ PS C:\> cd "C:\New folder"
+33)))
+PS C:\New folder> git init
+34)))
+PS C:\New folder> git add .
 
 
 
