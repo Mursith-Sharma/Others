@@ -4,4 +4,50 @@
   ->  git config --global user.email "mmursith12345@gmail.com"
   -> connect aahitta enpahai paarkka -> git config --global --list
 3. create any folder in your pc & go to terminal enter folder path and connect github file link like keele iruppathu pola
-4.go to your vs code terminal PS C:\wamp64\github_folder> git clone https://github.com/Mursith-Sharma/Others/blob/main/Git%20%26%20Github
+4.go to your vs code terminal PS C:\wamp64\github_folder> git clone https://github.com/Mursith-Sharma/Projects.git            {syntex  ->>  (cd path/to/your/folder)     github il folder il code entru irukkum antha code than upload pannal .gt entru varum}
+5. PS C:\wamp64\github_folder>        <<--  now you irukkum path
+6. ls adiththu athilulla folder kku poga vendum (cd your folder)
+7. antha folder il ethavathu new text file create pannungal.  vs code moolamaga or dekstop in moolamaga text file create pannavum. github moolamaga create panna vendam ex:- (test2.txt) 
+8. git status ( type in terminal )
+9. git status kodukkavum . after athil Untracked files: entru varum athatkara reason neengal create panniya file github il track panna mudiyavillai. athai kurikka arukil "U" entru sympol irukkum 
+10. after type -> git add test2.txt
+8. ippoluthu "U" entra sympol "A" entru maaari irukkum
+
+###########################################################  in cmd  #########################################################################
+
+PS C:\wamp64\github_folder> git clone https://github.com/Mursith-Sharma/Projects.git      
+Cloning into 'Projects'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 10 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (10/10), done.
+PS C:\wamp64\github_folder> ls
+
+
+    Directory: C:\wamp64\github_folder
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        14/06/2025  10:55 AM                Assignments
+d-----        14/06/2025  11:13 AM                My-C-Journey
+d-----        14/06/2025  11:15 AM                My-Other-Languages-
+d-----        14/06/2025  12:19 PM                Projects
+
+
+PS C:\wamp64\github_folder> cd .\projects\
+PS C:\wamp64\github_folder\projects> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\wamp64\github_folder\projects> git add test2.txt
+
+
+
+####################################################################################################################################
