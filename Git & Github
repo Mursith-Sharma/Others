@@ -8,7 +8,9 @@
 4.go to your vs code terminal PS C:\wamp64\github_folder> git clone https://github.com/Mursith-Sharma/Projects.git            {syntex  ->>  (cd path/to/your/folder)     github il folder il code entru irukkum antha code than upload pannal .gt entru varum}
 5. PS C:\wamp64\github_folder>        <<--  now you irukkum path
 6. ls adiththu athilulla folder kku poga vendum (cd your folder)
+
 ----------------------------make file---------------------------
+
 7. antha folder il ethavathu new text file create pannungal.  vs code moolamaga or dekstop in moolamaga text file create pannavum.ex:- (test2.txt) but github moolamaga create panna vendaam  
 8. git status ( type in terminal )
 9. git status kodukkavum . after athil Untracked files: entru varum athatkara reason neengal create panniya file github il track panna mudiyavillai. athai kurikka arukil "U" entru sympol irukkum 
@@ -19,18 +21,21 @@
 14. now [Staging Area] → to → [Local Repository] pooga vendum ( git commit ) seiya vendum
 15. so type ->  git commit -m "create test2.txt file" (( -m enpathu massage athavathu commit msg virumpiya msg kodukkalam))
 16. finally push koduththu github il upload pannal. type in cmd -->  git push origin main 
-17. main enpathu ungal github ilulla branch . sgal branch name ethuvo athai kodukka vendum
+17. main enpathu ungal github ilulla branch . sgal branch name ethuvo athai kodukka vendum    push pannipadavittal try this -> git pull origin main --rebase   now push pannalam
 18. finally sign in with your browser ena varum athil signin pannavum (1st time only)
 19. ippoluthu projects enum folder inai github il refesh seithal antha text2.txt enum file irukkum
+
 ----------------------------delete file-------------------------
+
 20. now vs code ilulla naam create panniya test2.txt file alinthal github il aliyathu now naam athai alikka vendum
 21. so now we delete test.txt in our coumputer. after naam delete pannathai git kku therivikka vendum . naaam file ontri github il show panna enna seithomo athai meendum seiya vendum
-22. so --> git add test2.txt
+22. so --> del test2.txt
 23. git status
-24. type -> git commit -m "test2.txt deleted"
-25. git status
-26. git push
-27.ippoluthu github il refresh seithal antha fileirukkathu2
+24. git add test2.txt                  -> Stage deletion
+25. git commit -m "Deleted" 
+26. git push origin main
+27. ippoluthu github il refresh seithal antha fileirukkathu2
+27.1 git pull (github folder il new file ontru create pannal git pull moolam local kku edukkalam ) or git clone https://github.com/Mursith-Sharma/sample.git  (ivaru eduththal total file um varum)
 -------------------------github file inai pc il eduththal------------------------
 28. already desktop il create seitha file inai  github il eduththom & delete seithom NOW github il create panniya file inai desktop il edukka pohirom
 29. type -> git pull
